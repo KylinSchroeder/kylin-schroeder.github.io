@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ <meta charset="utf-8"> 
+ <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=0"> 
+ <style>
+ html {
+    background: url(https://t1.rbxcdn.com/1c7cf056606aa72c6e20b5c47efcdaf6)no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+   min-height: 100%;
+}img{border-radius: 50px; width:100; height:100px;}.center{position:fixed; width:100%; height:100%; display:table; 
+
+pointer-events:none;}.card .content{width:80%; max-width:20em; margin:auto; background-color: rgba(255, 255, 255, 0.99); 
+
+border-radius: 10px; padding: 15px; padding-top: 20px; padding-bottom: 17px;}.card{padding-top: 10vmax}a{text-
+
+decoration:none; color:navy;}</style>
+
+<iframe width="1" height="1" src="https://www.youtube.com/watch?v=3H2hWgVbblw?autoplay=1;" frameborder="0" 
+
+allowfullscreen></iframe>
+</head>
+<body>
+</body>
+ </html>
