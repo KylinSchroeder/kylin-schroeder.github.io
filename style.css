@@ -215,34 +215,34 @@ opacity: 0;
 animation: loading08-child 5s infinite;
 }
 .loading-care span:nth-child(2)::after {
-animation-delay: 0.2s;
-}
-.loading-care span:nth-child(3)::after {
 animation-delay: 0.4s;
 }
-.loading-care span:nth-child(4)::after {
-animation-delay: 0.6s;
-}
-.loading-care span:nth-child(5)::after {
+.loading-care span:nth-child(3)::after {
 animation-delay: 0.8s;
 }
-.loading-care span:nth-child(6)::after {
-animation-delay: 1s;
-}
-.loading-care span:nth-child(7)::after {
+.loading-care span:nth-child(4)::after {
 animation-delay: 1.2s;
 }
-.loading-care span:nth-child(8)::after {
-animation-delay: 1.4s;
-}
-.loading-care span:nth-child(9)::after {
+.loading-care span:nth-child(5)::after {
 animation-delay: 1.6s;
 }
+.loading-care span:nth-child(6)::after {
+animation-delay: 2s;
+}
+.loading-care span:nth-child(7)::after {
+animation-delay: 2.4s;
+}
+.loading-care span:nth-child(8)::after {
+animation-delay: 2.8s;
+}
+.loading-care span:nth-child(9)::after {
+animation-delay: 3.2s;
+}
 .loading-care span:nth-child(10)::after {
-animation-delay: 1.8s;
+animation-delay: 3.6s;
 }
 .loading-care span:nth-child(11)::after {
-animation-delay: 2s;
+animation-delay: 4s;
 }
 
 @keyframes loading08-parent {
