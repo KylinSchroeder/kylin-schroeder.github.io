@@ -3,6 +3,73 @@
 <head> 
 </head>
 <body>
+	<script>
+var message = new Array();
+message[0] = "Kylin Schroeder";
+message[1] = "Developer";
+message[2] = "DIY Mechanic";
+message[3] = "Security Research";
+message[4] = "Kylin";
+message[5] = "Schroeder";
+message[6] = "Offical Website";
+var reps = 2;
+var speed = 100; var p = message.length;
+var T = "";
+var C = 0;
+var mC = 0;
+var s = 0;
+var sT = null;
+if (reps < 1) reps = 1;
+function doTheThing() {
+T = message[mC];
+A();
+}
+function A() {
+s++;
+if (s > 8) { s = 1;}
+if (s == 1) { document.title = '|---  '+T+' ---|'; }
+if (s == 2) { document.title = '|---  '+T+' ---|'; }
+if (s == 3) { document.title = '|---  '+T+' ---|'; }
+if (s == 4) { document.title = '|---  '+T+' ---|'; }
+if (s == 5) { document.title = '|---  '+T+' ---|'; }
+if (s == 6) { document.title = '|---  '+T+' ---|'; }
+if (s == 7) { document.title = '|---  '+T+' ---|'; }
+if (s == 8) { document.title = '|---  '+T+' ---|'; }
+if (C < (8 * reps)) {
+sT = setTimeout("A()", speed);
+C++;
+}
+else {
+C = 0;
+s = 0;
+mC++;
+if(mC > p - 1) mC = 0;
+sT = null;
+doTheThing();
+}
+}
+doTheThing();
+//-->
+</script>
+<div class="abs center overlay">
+<section>
+<div class="loading loading-care">
+<span data-text="K">W</span>
+<span data-text="Y">E</span>
+<span data-text="L">B</span>
+<span data-text="I">S</span>
+<span data-text="N">I</span>
+<span data-text="'">T</span>
+<span data-text="S">E</span>
+</div>
+<p>Kylin's Offical Website</p>
+</section>
+<div class="space"></div>
+<link rel="stylesheet" href="https://d33wubrfki0l68.cloudfront.net/css/5abf06ef8374d098380df0cf4ba86f216e9dee1b/mob.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<script>
+	
   <div id="particles-js"></div>
 
 <div class="text">
