@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Author: Emily Black, 03/21/17 -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Kylin Schroeder</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/background.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/>
+	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/type-it.js"></script>
+</head>
+<body>
+	<div id="particles-js"></div>
+	<script src="js/particles.min.js"></script>
+	<script src="js/background.js"></script>
+	
+
+	<div class="container">
+		<span class="type-it" style="color:#00ff00;"></span>
+	</div>
+
+	<script>
+		var first = "Hello,";
+		var second = "I'm <strong>Kylin Schroeder</strong>.";
+		var third = "Get to know <a href='about.html'>me</a>.";
+		var fourth = "<a href='/other/'>Old/Random Code</a> • <a href='https://github.com/Kylin-Schroeder'>GitHub</a> • <a href='https://instagram.com/zoinks.mp3'>Instagram</a> • <a href='mailto:kylin.schroeder@outlook.com'>Email</a>";
+		var fifth = "I shitpost";
+		var sixth = "I make memes,";
+		var seventh = "Grey Five Nine to the grave";
+		$('.type-it').typeIt({
+			strings: [first, second, third, fourth, fifth, sixth, seventh]
+		});
+	</script>
+	
+</body>
+</html>
