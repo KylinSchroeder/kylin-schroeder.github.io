@@ -17,6 +17,6 @@ canvas {
     background-color: #000000;
     background-image: url("https://kylin-schroeder.github.io/sucker.gif");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-position: 50% 50%;
 }
